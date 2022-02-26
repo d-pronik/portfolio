@@ -1,0 +1,66 @@
+# Ignore bundler config.
+/.bundle
+
+# ignore local bundle cache
+/vendor/bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# rails config
+config/database.yml
+config/secrets.yml
+
+#RubyMine
+.idea
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# rvm files
+.ruby-version
+.ruby-gemset
+.rvmrc
+
+# redis artifacts
+dump.rdb
+
+# npm artifacts
+npm-debug.log
+
+# deploy artifacts
+packer_manifest.json
+
+#remove local env configuration
+.env
+
+# remove documentation ui
+docs/*
+
+# ignore foreman
+Procfile
+
+# ignore paperclip uploads
+public/system
+
+# ignore test coverage reports
+coverage
+
+# ignore dump files
+*.dmp
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
+
+# Ignore rspec config
+.rspec
+
+# Local ActiveStorage images
+storage
+
+# MacOS Finder files
+.DS_Store
